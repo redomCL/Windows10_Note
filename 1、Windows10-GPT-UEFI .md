@@ -27,3 +27,5 @@ http://bbs.wuyou.net/forum.php?mod=viewthread&tid=299643&fromuid=396698
 * 3.BCD为Windows10引导菜单。可用相关工具编辑实现轮转！不同系统可能以efi+某格式扩展名的引导菜单结合进行引导和轮转。Windows的引导菜单为BCD。
 
 * 4.ESP分区本质为GPT分区表硬盘中的一块fat16文件系统的分区，一般位于初始扇区（0磁道0柱面1扇区）。
+
+![](https://github.com/redomCL/Windows10_Note/blob/main/%E6%88%AA%E5%9B%BE/Windows10-GPT-UEFI%E5%9B%BE%E7%89%87.png)
