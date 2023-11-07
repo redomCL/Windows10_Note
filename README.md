@@ -4,6 +4,8 @@
 
 * 2、4K对齐与簇
 
-* 3、5900X + Strix B450F + HOF Extreme 4000
+* 3、Ryzen
 
-* 4、2600X + MORTAR B450M MAX + HOF II 4000
+* 4、5900X + Strix B450F + HOF Extreme 4000
+
+* ？、2600X + MORTAR B450M MAX + HOF II 4000
