@@ -1,4 +1,5 @@
 http://bbs.wuyou.net/forum.php?mod=viewthread&tid=303679
+
 http://bbs.wuyou.net/forum.php?mod=viewthread&tid=299643&fromuid=396698 
 
 # 1.Windows10引导方案(当UEFI配置了直接指向bootmgfw.efi的方案(Windows Boot Manager))：
