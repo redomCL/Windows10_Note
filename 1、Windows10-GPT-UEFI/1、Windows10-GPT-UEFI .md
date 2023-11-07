@@ -28,4 +28,4 @@ http://bbs.wuyou.net/forum.php?mod=viewthread&tid=299643&fromuid=396698
 
 * 4.ESP分区本质为GPT分区表硬盘中的一块fat16文件系统的分区，一般位于初始扇区（0磁道0柱面1扇区）。
 
-![](https://github.com/redomCL/Windows10_Note/blob/main/%E5%9B%BE%E7%89%87/Windows10-GPT-UEFI%E5%9B%BE%E7%89%87.png)
+![](https://github.com/redomCL/Windows10_Note/blob/main/1%E3%80%81Windows10-GPT-UEFI/Windows10-GPT-UEFI%E5%9B%BE%E7%89%87.png)
