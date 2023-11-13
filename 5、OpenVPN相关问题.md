@@ -5,10 +5,10 @@
 ### 开机自动启动OpenVPN后自动链接：
 * 创建快捷方式，在后面加入" --connect client.ovpn"
 
-### WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this：警告密码可能缓存在内存中，不安全
+### WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this：警告，密码可能缓存在内存中，不安全
 * 添加命令："auth-nocache"
 
-### DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). OpenVPN ignores --cipher for cipher negotiations.：设置相关提示：加密方法有变更
+### DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). OpenVPN ignores --cipher for cipher negotiations.：设置相关提示，加密方法有变更
 * 暂时解决办法，添加命令："data-ciphers-fallback AES-256-CBC"
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
