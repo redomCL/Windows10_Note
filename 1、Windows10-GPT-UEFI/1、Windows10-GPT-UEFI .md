@@ -4,19 +4,19 @@ http://bbs.wuyou.net/forum.php?mod=viewthread&tid=299643&fromuid=396698
 
 # 1.Windows10引导方案(当UEFI配置了直接指向bootmgfw.efi的方案(Windows Boot Manager))：
 
-* UEFI BIOS→ESP分区→\EFI\Microsoft\Boot\bootmgfw.efi→(读取)\EFI\Microsoft\Boot\BCD→\C:(Windows系统分区(俗称C盘）)→\Windows\System32\winload.efi。
+* UEFI BIOS → ESP分区→ \EFI\Microsoft\Boot\bootmgfw.efi → \EFI\Microsoft\Boot\BCD → \C:(Windows系统分区(C盘)) → \Windows\System32\winload.efi。
 
 * 引导结束，整个硬件系统由Windows操作系统完成接管。
 
 # 2.Windows10引导方案(UEFI下直接操作读盘引导)：
 
-* UEFI BIOS→ESP分区→\EFI\Boot\bootx64.efi→(读取)\EFI\Microsoft\Boot\BCD→\C:(Windows系统分区(俗称C盘）)→\Windows\System32\winload.efi。
+* UEFI BIOS → ESP分区 → \EFI\Boot\bootx64.efi → ESP分区 → \EFI\Microsoft\Boot\BCD → \C:(Windows系统分区(C盘)) → \Windows\System32\winload.efi。
 
 * 引导结束，整个硬件系统由Windows操作系统完成接管。
 
-# 3.GPT+UEFI引导范式(UEFI下直接操作读盘引导)：
+# 3.GPT+UEFI直接读盘引导(UEFI默认)：
 
-* UEFI BIOS→ESP分区→\EFI\Boot\bootx64.efi→读取类似BCD的引导菜单
+* UEFI BIOS → ESP分区 → \EFI\Boot\bootx64.efi → 读取类似BCD的引导菜单
 
 ## 注：
 
