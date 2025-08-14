@@ -9,3 +9,7 @@
 * 4、HTPC
 
 * 5、OpenVPN相关问题
+
+* 6、Windows10搭建OV
+
+* 7、右键菜单样式转换
